@@ -1,0 +1,172 @@
+font-family: 'Lexend Deca', sans-serif;
+font-family: 'Big Shoulders Display', cursive;
+
+* {
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size:15px;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   background-color: hsl(0, 0%, 95%);
+    
+
+}
+
+.container {
+
+    
+    max-width:940px;
+    margin:auto;
+   
+    font-family: 'Lexend Deca', sans-serif;
+     
+    
+
+}
+
+.page{
+    
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  
+}
+
+
+.card1{
+    background-color:hsl(31, 77%, 52%);
+    padding:15% 17%;
+    
+    border-radius: 7px 0 0 7px;
+    
+    
+}
+
+.card2{
+    background-color:hsl(184, 100%, 22%);
+    padding:15% 17%;
+   
+    
+}
+
+.card3{
+    background-color:hsl(179, 100%, 13%);
+    padding:15% 17%;
+    
+    border-radius:  0 7px  7px 0 ;
+    
+}
+
+h1{
+
+    text-transform: uppercase;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 40px;
+    color:hsl(0, 0%, 95%)
+    
+
+
+
+}
+
+p{
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    line-height: 1.8;
+    color:hsla(0, 0%, 100%, 0.75);
+    
+
+}
+
+button{
+    background-color:hsl(0, 0%, 95%);
+    border:none;
+    border-radius:30px;
+    height:50px;
+    width:150px;
+    
+   
+    margin-top:31%;
+    font-size:14px;
+    font-weight: 700;
+}
+
+.card1 button{
+    color:hsl(31, 77%, 52%);
+}
+
+
+.card2 button{
+    color:hsl(184, 100%, 22%);
+}
+
+
+
+.card3 button{
+    color:hsl(179, 100%, 13%);
+}
+
+.card1 button:hover {
+    background-color:hsl(31, 77%, 52%);
+    border:2px solid white;
+    color:white;
+}
+
+.card2 button:hover {
+    background-color:hsl(184, 100%, 22%);
+    border:2px solid white;
+    color:white;
+}
+
+.card3 button:hover {
+    background-color:hsl(179, 100%, 13%);
+    border:2px solid white;
+    color:white;
+}
+
+.attribution {
+    margin:10px auto;
+}
+
+@media only screen and (max-width:430px){
+    .container {
+        display:block;
+    }
+
+    .page{
+    
+        
+        grid-template-columns: 1fr ;
+
+    }
+
+    body {
+        height:auto;
+        margin:10% 5%;
+    }
+
+    .card1{
+    
+    
+    border-radius: 7px 7px 0 0;
+    
+    
+}
+
+.card3{
+    
+    
+    border-radius:  0 0 7px 7px;
+    
+    
+}
+
+
+
+
+}
